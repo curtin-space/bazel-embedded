@@ -1,5 +1,6 @@
 # bazel-embedded
 **Caution:** This is alpha quality software at the moment and has not be tested in depth.
+
 bazel-embedded is a set of tools that enable embedded development using bazel. 
 
 Current support is limited to Arm Cortex-M Devices:
@@ -68,6 +69,7 @@ Explore the examples for more in depth details...
 
 ## Caveats
 If your repository contains platform independant you will not be able to automatically exclude platform dependant code. For example;
+
 package/BUILD
 ```py
 cc_library(
